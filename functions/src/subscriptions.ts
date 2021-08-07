@@ -4,7 +4,7 @@ import * as functions from "firebase-functions";
 import { checkEventSubSubscriptions } from "./eventsub";
 import { getTwitchLogin } from "./twitch";
 
-const PROJECT_ID = "rtchat-47692";
+const PROJECT_ID = "rtchat-68eb4";
 
 export const subscribe = functions.https.onCall(async (data, context) => {
   if (!context.auth) {
